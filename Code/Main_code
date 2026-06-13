@@ -1,0 +1,46 @@
+#define ESP32_BLE;  // The BLE(bluetoth low energy) will be used as this project doesnt require a very big data transfer
+#define CUSTOM_SETTINGS;
+#define INCLUDE_GAMEPAD_MODULE;
+
+const int st_in1 = 8; //steering motor driver pins defined
+const int st_in2 = 9;
+const int right_in1 = 10; //drive motor pins defined
+const int right_in2 = 11;
+const int left_in1 = 12;
+const int left_in2 = 13;
+
+
+void setup() {
+  serial.begin(115200); //the proper and best serial speed here is 115200
+  Dabble.begin("F0.1 Race Car");
+}
+
+void loop() {
+  Dabble.processInput();
+  if (Gamepad.isUpPressed()) {
+    //180rpm drive motors in forward direction
+    digitalWrite(right_in1, HIGH);
+    digitalWrite(right_in2, LOW);
+    digitalWrite(left_in1, HIGH);
+    digitalWrite(left_in2, LOW);
+
+  }
+  else if (Gamepad.isDownPressed()) {
+    //180rpm drive motors in backward direction
+    digitalWrite(right_in1, LOW);
+    digitalWrite(right_in2, HIGH);
+    digitalWrite(left_in1, LOW);
+    digitalWrite(left_in2, HIGH);
+  }
+  else if (Gamepad.isRightPressed()) {
+    //50 rpm steering motor to the right
+    digitalWrite(st_in1, LOW);
+    digitalWrite(st_in2, HIGH);
+  }
+  else if (Gamepad.isLeftPressed()) {
+    //50 rpm steering motor to the left
+    digitalWrite(st_in1, HIGH);
+    digitalWrite(st_in2, LOW);
+  }
+
+}
