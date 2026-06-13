@@ -1,1 +1,9 @@
-
+## Design Objectives
+* This design is made to be 3D printed.
+* The bottom chassis was designed to hold these hardware parts in place:
+  - A 6v 150rpm dc motor with gear reduction for steering 
+  - Two 6v 180rpm dc motor with gear reduction for drive
+  - An ESP32
+  - The outer surface body
+  - A 9V battery
+  
