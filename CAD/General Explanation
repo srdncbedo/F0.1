@@ -10,6 +10,12 @@
 * Two motor holders are designed to hold the motors tightly in place. Holders use 4m screws.
 * Steering motor will be hold in place by strip cables.
 * The wheels are designed to be wrapped up with rubber bands to increase the grip.
+* A spur gear and a linear gear is designed for the steering mechanism of the car.
+
+## Dimension Accuracy and Tolerances
+* A tolerance of 0.3mm is applied to the rod holes.
+* A tolerance of 0.2mm is applied to the linear-spur gear mechanism
+* No tolerance is applied to the other parts as they require tightness
 
 
 ## Software Used
