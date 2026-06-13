@@ -6,4 +6,19 @@
   - An ESP32
   - The outer surface body
   - A 9V battery
-  
+* A battery place lid is designed to make the battery exchange easier.
+* Two motor holders are designed to hold the motors tightly in place. Holders use 4m screws.
+* Steering motor will be hold in place by strip cables.
+* The wheels are designed to be wrapped up with rubber bands to increase the grip.
+
+
+## Software Used
+* Autodesk Fusion 360 is used at the design process of this project
+
+## Part List
+* Electronics(look at README/ROM for more detail)
+* m4 heat set inserts, screws and nuts
+  -m4*8(6 screws)
+  -m4 nut(8 nut)
+  -m4*10(8 screws)
+  -m4 heat set inserts (6 piece)
