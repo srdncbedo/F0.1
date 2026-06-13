@@ -1,2 +1,2 @@
 # F0.1
-An F1 toy car made out of deodorant can which can be controlled by phone using dabble.
+A little aerobic toy car born to be out of wasted can obliged to be 3D printed. It can be controlled by your phone using dabble!
