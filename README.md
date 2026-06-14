@@ -8,7 +8,7 @@ After this bad start I just imagined some better stuff and decided to build some
 <img width="1920" height="1080" alt="V1" src="https://github.com/user-attachments/assets/d1a82697-cdcb-4c5f-926a-575901fb2a4e" />
 
 # Key Features
-- Can be controlled using bluetooth and the app dabble.
+- Can be controlled using bluetooth and the app dabble.(check code/compilation instructions for how to use in 
 - Uses a good mechanism of a linear and spur gear for steering.
 - The microcontroller used is ESP32 which performs good enough in bluetoth data transfer with its built in bluetoth and quite affordable.
 - It is expected to have a speed of 2.8 km/h with its 500 rpm dc motors with gear reduction.
@@ -16,4 +16,5 @@ After this bad start I just imagined some better stuff and decided to build some
 - The power source used is a 9v battery.
 - A battery lid is desihned for easier exchange.
 - TB6612FNG motor drivers are used for a better performance from dc motors.
+- For assembly; screws, nuts and heat set inserts are used.
 - 
