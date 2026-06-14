@@ -37,3 +37,4 @@ This project uses:
 - Fuion 360
 - KiCAD
 - Arduino IDE
+- Macondo Hack Club
