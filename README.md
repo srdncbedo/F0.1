@@ -1,7 +1,6 @@
 # F0.1
 A little aerobic toy car born to be out of wasted can, obliged to be 3D printed. It can be controlled by your phone using dabble!
 <img width="756" height="406" alt="f01_render" src="https://github.com/user-attachments/assets/67c6436e-8705-46cd-bc46-1829a34098a9" />
-<img width="933" height="575" alt="image" src="https://github.com/user-attachments/assets/de119aa7-3e2f-41bc-b976-f0a61ee8fb9e" />
 
 # Key Features
 - Can be controlled using bluetooth and the app dabble.(check code/compilation instructions for how to use)
