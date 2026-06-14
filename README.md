@@ -11,7 +11,13 @@ A little aerobic toy car born to be out of wasted can, obliged to be 3D printed.
 - The power source used is a 9v battery.
 - A battery lid is designed for easier exchange.
 - TB6612FNG motor drivers are used for a better performance from dc motors.
+
+# CAD and Assembly
 - For assembly; screws, nuts and heat set inserts are used.
+- Most of the parts are hold in place by chassis
+- Look at CAD/General Explanation for more details. 
+# Wirings
+
 
 # Story
 
@@ -20,10 +26,6 @@ After the technical details ı would like to share my story of building this pro
 
 After this bad start I just imagined some better stuff and decided to build something better: An F1 car with remote control using bluetooth and dabble.  Even though this direct building part wasn't a good start, after several attempts of designing I managed to get the complete design to be 3D printed:
 <img width="1920" height="1080" alt="V1" src="https://github.com/user-attachments/assets/d1a82697-cdcb-4c5f-926a-575901fb2a4e" />
-
-# Wirings
-
-
 # Credits
 This project uses:
 - Fuion 360
