@@ -1,2 +1,6 @@
-Step-1: Copy and paste the Code/Main_code to Arduino IDE.
-Step-2: Select the board in 
+Step-1: Copy and paste the Code/Main_code to Arduino IDE desktop app.
+Step-2: Install the Esp-32 board from the right menu if you haven't before.
+Step-3: Install the dabble library from the libraries menu at right.
+Step-4: Select the board and the COM your Esp-32 is connected from the scrolling menu above.
+Step-5: You can now upload the code to your fully assembled car.
+Step-6: To connect to the car using bluetooth you should look for the name "F0.1 Race Car" at the bluetooth menu in the app dabble.
