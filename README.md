@@ -20,6 +20,8 @@ A little aerodynamic toy car born to be upcycled from an empty deodorant can, ob
 - Look at CAD/General Explanation for more details. 
 # Wirings
 
+Made using KiCAD. A 3.3v voltage regulator is used at the voltage in pin of the esp32 and the same voltage is given to driver motors logic pins. To increase the safety of components sitable cpacitors are used at both end of the regulator. 
+
 <img width="909" height="855" alt="image" src="https://github.com/user-attachments/assets/f62855bf-8c70-44b6-8970-d6faa65cb9a4" />
 
 
