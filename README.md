@@ -20,6 +20,8 @@ A little aerodynamic toy car born to be upcycled from an empty deodorant can, ob
 - Look at CAD/General Explanation for more details. 
 # Wirings
 
+<img width="909" height="855" alt="image" src="https://github.com/user-attachments/assets/f62855bf-8c70-44b6-8970-d6faa65cb9a4" />
+
 
 # Story and Purpose
 
