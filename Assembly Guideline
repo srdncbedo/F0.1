@@ -1,1 +1,10 @@
-
+- This guide is written to make the assembly of the project F0.1 easier for users.
+- The first step is to use m4 bolts and nuts to place the steering and wheel motors at appropriate positions.
+- Then the cables of 9v battery holder should be passed through the hole at the wall of battery place.
+- After that the esp32 card can be placed at the planned place using the appropriate screws.
+- After the esp card is also placed the spindles and linear gear can be assembled as in the design using m4 bolts and nuts.
+- As the next step the motor controllers be placed at the top of battery places using two sided tapes. 
+- At this point the wirings can be done using the schematics added to this repository.
+- After the wirings are done the heat set inserts should be placed at the holes of battery lid and the outar surface piece's holes.
+- After that the m4 screws can be used for the assembly of them. 
+-As the last step the front wheels by printed screws and the back wheels by just connecting to the motor can be assembled.- 
