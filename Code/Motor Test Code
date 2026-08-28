@@ -6,11 +6,18 @@ const int right_in1 = 18; //drive motor pins defined
 const int right_in2 = 19;
 const int left_in1 = 22;
 const int left_in2 = 23;
-const int stby = 34;
+const int stby = 25;
+const int pwm1 = 26;
+const int pwm2 = 27;
+
 
 void setup() {
   pinMode(stby, OUTPUT);
   digitalWrite(stby, HIGH);
+  pinMode(pwm1, OUTPUT);
+  digitalWrite(pwm1, HIGH);
+  pinMode(pwm2, OUTPUT);
+  digitalWrite(pwm2, HIGH);
   pinMode(st_in1,OUTPUT);
   pinMode(st_in2,OUTPUT);
   pinMode(right_in1,OUTPUT);
@@ -24,18 +31,18 @@ void loop() {
   digitalWrite(st_in2, LOW);
   delay(2000);
   digitalWrite(st_in1, LOW);
-  digitalWrite(st_in2, HIGH);
+  digitalWrite(st_in2, LOW);
   delay(2000);
   digitalWrite(right_in1, HIGH);
   digitalWrite(right_in2, LOW);
   delay(2000);
   digitalWrite(right_in1, LOW);
-  digitalWrite(right_in2, HIGH);
+  digitalWrite(right_in2, LOW);
   delay(2000);
   digitalWrite(left_in1, HIGH);
   digitalWrite(left_in2, LOW);
   delay(2000);
   digitalWrite(left_in1, LOW);
-  digitalWrite(left_in2, HIGH);
+  digitalWrite(left_in2, LOW);
   delay(2000);
 }
