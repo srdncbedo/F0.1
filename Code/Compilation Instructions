@@ -1,3 +1,10 @@
+Current Version
+Step-1: Copy and paste the Code/Main_code to Arduino IDE desktop app.
+Step-2: Install the Arduino Uno board from the right menu if you haven't before.
+Step-4: Select the board and the COM your Arduino is connected from the scrolling menu above.
+Step-5: You can now upload the code to your fully assembled car.
+
+Planned Version
 Step-1: Copy and paste the Code/Main_code to Arduino IDE desktop app.
 Step-2: Install the Esp-32 board from the right menu if you haven't before.
 Step-3: Install the dabble library from the libraries menu at right.
