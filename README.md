@@ -2,6 +2,10 @@
 
 ## Current Version
 A little aerodynamic toy car born to be upcycled from an empty deodorant can, obliged to be 3D printed. It can be controlled by an IR remote controller!
+
+<img width="1162" height="742" alt="0" src="https://github.com/user-attachments/assets/74b5b690-89d8-4d6a-93df-a03e01d897b8" />
+
+
 ## Key Features
 - Can be controlled using IR controller.(check code/compilation instructions for how to use)
 - Uses a good mechanism of a linear and spur gear for steering.
