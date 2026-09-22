@@ -13,16 +13,16 @@ A little aerodynamic toy car born to be upcycled from an empty deodorant can, ob
 - A TB6612FNG motor driver for the steering motor and a MOSFET transistor is used for the drive motors.
 - Its approximately 30 cm in length and 11 cm in width.
 
-# Wirings
+## Wirings
 
 At this version of the project the wirings are as shown. This wiring diagram is made using KiCAD.
 
-# Planned Version
+## Planned Version
 A little aerodynamic toy car born to be upcycled from an empty deodorant can, obliged to be 3D printed. It can be controlled by your phone using dabble!
 
 <img width="756" height="406" alt="f01_render" src="https://github.com/user-attachments/assets/67c6436e-8705-46cd-bc46-1829a34098a9" />
 
-# Key Features
+## Key Features
 - Can be controlled using bluetooth and the app dabble.(check code/compilation instructions for how to use)
 - Uses a good mechanism of a linear and spur gear for steering.
 - The microcontroller used is ESP32 which performs good enough in bluetooth data transfer with its built in bluetoth and is quite affordable.
@@ -33,11 +33,11 @@ A little aerodynamic toy car born to be upcycled from an empty deodorant can, ob
 - TB6612FNG motor drivers are used for a better performance from dc motors.
 - Its approximately 30 cm in length and 11 cm in width.
 
-# CAD and Assembly
+## CAD and Assembly
 - For assembly; screws, nuts and heat set inserts are used.
 - Most of the parts are held in place by chassis
 - Look at CAD/General Explanation for more details. 
-# Wirings
+## Wirings
 
 Made using KiCAD. A 3.3v voltage regulator is used at the voltage in pin of the esp32 and the same voltage is given to driver motors logic pins. To increase the safety of components suitable capacitors are used at both end of the regulator. 
 
@@ -45,7 +45,7 @@ Made using KiCAD. A 3.3v voltage regulator is used at the voltage in pin of the 
 
 If more detail is needed the schematic document itself is also uploaded.
 
-# Story and Purpose
+## Story and Purpose
 
 After the technical details I would like to share my story of building this project as well. One night I was sitting on my desk just overthinking and doing nothing as usual. Saw my deodorant can, it was empty and thought why not build something with it and the idea of building a decorative F1 car came to my mind. I just ran into our schools workshop and started cutting some parts from paper. I just sticked them to the deodorant can's surface which I straightened before cutting the papers. After sticking them I just cut all the parts with dremel and sticked them together with glue. After 3 days of after school work this freak was what I got(it doesnt even look decorative tho):
 
