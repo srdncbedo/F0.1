@@ -9,7 +9,7 @@ A little aerodynamic toy car born to be upcycled from an empty deodorant can, ob
 ## Key Features
 - Can be controlled using IR controller.(check code/compilation instructions for how to use)
 - Uses a good mechanism of a linear and spur gear for steering.
-- The microcontroller used is arduino uno which performs good enough in this version of the project. The 
+- The microcontroller used is arduino uno which performs good enough in this version of the project.
 - It is has an approximate speed of 2.8 km/h with its 500 rpm dc motors with gear reduction.
 - The steering mechanism uses a 50 rpm dc motor with increased torque.
 - The power source used is a 9v battery.
@@ -20,6 +20,7 @@ A little aerodynamic toy car born to be upcycled from an empty deodorant can, ob
 ## Wirings
 
 At this version of the project the wirings are as shown. This wiring diagram is made using KiCAD.
+
 
 ## Planned Version
 A little aerodynamic toy car born to be upcycled from an empty deodorant can, obliged to be 3D printed. It can be controlled by your phone using dabble!
