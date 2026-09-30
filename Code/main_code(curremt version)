@@ -1,0 +1,104 @@
+#include <Arduino.h>
+#include <IRremote.hpp>
+
+const int IR_RECEIVE_PIN = 2;
+
+const int DRIVE_MOTOR_1 = 5;
+const int DRIVE_MOTOR_2 = 3;
+
+const int STBY = 9;
+const int PWMA = 10;
+const int AIN2 = 11;
+const int AIN1 = 12;
+
+#define BTN_UP    0x18
+#define BTN_DOWN  0x52
+#define BTN_LEFT  0x08
+#define BTN_RIGHT 0x5A
+#define BTN_OK    0x1C
+
+void motorlariCalistir(int hiz);
+void motorlariDurdur();
+void direksiyonSaga(int guc);
+void direksiyonSola(int guc);
+void direksiyonOrtala();
+
+void setup() {
+  Serial.begin(115200);
+
+  pinMode(DRIVE_MOTOR_1, OUTPUT);
+  pinMode(DRIVE_MOTOR_2, OUTPUT);
+  pinMode(STBY, OUTPUT);
+  pinMode(PWMA, OUTPUT);
+  pinMode(AIN1, OUTPUT);
+  pinMode(AIN2, OUTPUT);
+
+  digitalWrite(STBY, HIGH);
+
+  motorlariDurdur();
+  direksiyonOrtala();
+
+  IrReceiver.begin(IR_RECEIVE_PIN, ENABLE_LED_FEEDBACK);
+}
+
+void loop() {
+  if (IrReceiver.decode()) {
+    uint32_t command = IrReceiver.decodedIRData.command;
+
+    switch (command) {
+      case BTN_UP:
+        motorlariCalistir(255);
+        break;
+
+      case BTN_DOWN:
+        motorlariDurdur();
+        break;
+
+      case BTN_LEFT:
+        direksiyonSola(255);
+        break;
+
+      case BTN_RIGHT:
+        direksiyonSaga(255);
+        break;
+
+      case BTN_OK:
+        motorlariDurdur();
+        direksiyonOrtala();
+        break;
+
+      default:
+        break;
+    }
+
+    IrReceiver.resume();
+  }
+}
+
+void motorlariCalistir(int hiz) {
+  analogWrite(DRIVE_MOTOR_1, hiz);
+  analogWrite(DRIVE_MOTOR_2, hiz);
+}
+
+void motorlariDurdur() {
+  analogWrite(DRIVE_MOTOR_1, 0);
+  analogWrite(DRIVE_MOTOR_2, 0);
+}
+
+void direksiyonSaga(int guc) {
+  digitalWrite(AIN1, HIGH);
+  digitalWrite(AIN2, LOW);
+  analogWrite(PWMA, guc);
+}
+
+void direksiyonSola(int guc) {
+  digitalWrite(AIN1, LOW);
+  digitalWrite(AIN2, HIGH);
+  analogWrite(PWMA, guc);
+}
+
+void direksiyonOrtala() {
+  digitalWrite(AIN1, LOW);
+  digitalWrite(AIN2, LOW);
+  analogWrite(PWMA, 0);
+}
