@@ -21,6 +21,8 @@ A little aerodynamic toy car born to be upcycled from an empty deodorant can, ob
 
 At this version of the project the wirings are as shown. This wiring diagram is made using KiCAD.
 
+<img width="797" height="570" alt="image" src="https://github.com/user-attachments/assets/70e07e70-9129-47e3-b708-47e2e7b731c0" />
+
 
 ## Planned Version
 A little aerodynamic toy car born to be upcycled from an empty deodorant can, obliged to be 3D printed. It can be controlled by your phone using dabble!
